@@ -4,6 +4,7 @@ HTML, CSS, JavaScript
 evn1054@gmail.com https://github.com/evn1054 https://www.linkedin.com/in/evgeny-nagaev-40aa30163
 
 Work experience: 
+2019-2021 motion-designer DivisionPro Tomsk
 
 Education / Additional Education: 
 
@@ -12,3 +13,5 @@ Tomsk polytechnic university	Bachelor of nuclear physics and technology
 
 2017-2019
 Tomsk polytechnic university	Master of higher education innovation
+
+English language: B2
