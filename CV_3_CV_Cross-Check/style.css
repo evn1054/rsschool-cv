@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #534546;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #829985;
+}
+
+.division {
+    width: 50%;
+}
+
+/* -------------------------------------------- */
+
+.header {
+    background-color: #829985;
+    padding: 15px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.container ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.container ul li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: white;
+
+    
+}
+
+.main-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.b01 {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.user-photo{
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.user {
+    text-align: center;
+    text-transform: uppercase;
+}
+.user-name {
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 300;    
+}
+
+.user-name::after {
+    position: absolute;
+    width: 50px;
+    height: 12px;
+    background-color: #d9d0c7;
+}
+
+
+
+.big-hr{
+    width: 100%;
+    height: 9px;
+    background-color: #d8d0c7;
+}
+
+.b02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.contacts ul li {
+    list-style-type: none;
+}
+.location {
+    margin: 10px 0;
+}
+.mail {
+    margin: 10px 0;
+}
+.github {
+    margin: 10px 0;
+}
+.discord {
+    margin: 10px 0;
+}
+.linkedin {
+    margin: 10px 0;
+}
+.summary p {
+    line-height: 25px;
+}
+
+.skills ul li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+table tr td {
+    padding: 0, 20px;
+}
+
+.footer {
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: #829985;
+    padding: 10px;
+}
+
+.container-footer {
+    max-width: 1170px;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rights {
+    display: flex; 
+}
+
+.rights p{
+    color: white;
+    margin-right: 20px;
+}
+.rights a{
+    color: white;
+
+}
+
+.footer img {
+    width: 150px;
+
+}
+
