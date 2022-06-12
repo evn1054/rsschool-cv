@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'cv';
+  src:  url('fonts/cv.eot?sh7hyf');
+  src:  url('fonts/cv.eot?sh7hyf#iefix') format('embedded-opentype'),
+    url('fonts/cv.ttf?sh7hyf') format('truetype'),
+    url('fonts/cv.woff?sh7hyf') format('woff'),
+    url('fonts/cv.svg?sh7hyf#cv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cv' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-discord:before {
+  content: "\e901";
+  padding-right: 10px;
+  color: #829985;
+  
+}
+.icon-location:before {
+  content: "\e900";
+  padding-right: 10px;
+  color: #829985;
+}
+.icon-mail:before {
+  content: "\ea83";
+  padding-right: 10px;
+  color: #829985;
+}
+.icon-github:before {
+  content: "\eab0";
+  padding-right: 10px;
+  color: #829985;
+}
+.icon-linkedin:before {
+  content: "\eac9";
+  padding-right: 10px;
+  color: #829985;
+}
+
