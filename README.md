@@ -1,1 +1,1 @@
-https://evn1054.github.io/rsschool-cv/index.html
+https://evn1054.github.io/rsschool-cv/index.html#
