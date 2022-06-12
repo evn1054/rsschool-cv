@@ -1,1 +1,1 @@
-https://evn1054.github.io/rsschool-cv/cv#1
+https://evn1054.github.io/rsschool-cv/CV_3_CV_Cross-Check/index.html

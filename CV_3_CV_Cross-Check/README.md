@@ -1,1 +1,0 @@
-https://evn1054.github.io/rsschool-cv/CV_3_CV_Cross-Check/index.html
