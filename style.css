@@ -170,3 +170,43 @@ table tr td {
 
 }
 
+/* stilize code inside code block */
+pre {
+    max-width: 95%;
+    padding: 10px;
+
+    font-family: 'consolas';
+    color: white;
+    background-color: rgb(66, 66, 66);
+    border-radius: 5px;
+
+
+}
+.blue {
+    color: #4a9cd6;
+    font-family: 'consolas';
+}
+.yellow {
+    color: #dcdc9d;
+    font-family: 'consolas';
+}
+.text {
+    color: #9cdcfe;
+    font-family: 'consolas';
+}
+.magenta{
+    color: #ce70d6;
+    font-family: 'consolas';
+}
+.green{
+    color: #b5ce9b;
+    font-family: 'consolas';
+}
+.brackets{
+    color: #ffc813;
+    font-family: 'consolas';
+}
+.comments{
+    color: #ce834a;
+    font-family: 'consolas';
+}
