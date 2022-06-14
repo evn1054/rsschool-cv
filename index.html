@@ -25,7 +25,7 @@
     </header>
 
     <main class="main-container">
-        <div class="b01">
+        <section class="b01">
             <img class="user-photo" src="img/Profile_Photo.jpg" alt="This is my photo">
             <div class="user">
                 <div class="user-name">
@@ -33,10 +33,10 @@
                 </div>
                 <h1>junior frontend developer</h1>
             </div>
-        </div>
+        </section>
         <div class="big-hr"></div>
-        <div class="b02">
-            <div class="contacts division">
+        <section class="b02">
+            <article class="contacts division">
                 <h2>contacts</h2>
                 <ul>
                     <li class="location icon-location"><a href="https://goo.gl/maps/yNFeFhdy9BsrMRvN7" target="_blank">Sankt-Peterburg, Russia</a></li>
@@ -45,13 +45,13 @@
                     <li class="discord icon-discord">evn_v#8264</li>
                     <li class="linkedin icon-linkedin"><a href="https://linkedin.com/in/evgeny-nagaev-40aa30163" target="_blank">linkedin.com/in/evgeny-nagaev-40aa30163</a></li>
                 </ul>
-            </div>
-            <div class="summary division">
+            </article>
+            <article class="summary division">
                 <h2>summary</h2>
                 <p>While studying at school, I entered the Siberian Computer College to study programming. I was trained in Pascal and Delphi.After graduation from school, I entered Tomsk Polytechnic University. While studying at the university, I became interested inmotion design. I created commercial videos for companies. Here is my portfolio <a href="https://www.behance.net/evn_v" target="_blank">Behence</a> I worked for 3 years at Division Pro Tomsk and created videos. After moving to St. Petersburg, I worked as freelancer, and began training atFrontend developer. My pet projects you can see in <a href="https://github.com/evn1054" target="_blank">GitHub</a>
                 </p>
-            </div>
-            <div class="education division">
+            </article>
+            <article class="education division">
                 <h2>education</h2>
                 <table>
                     <tr>
@@ -63,8 +63,8 @@
                       <td>Master of higher education innovation</td>
                     </tr>
                   </table>
-            </div>
-            <div class="skills division">
+            </article>
+            <article class="skills division">
                 <h2>skills</h2>
                 <ul>
                     <li>HTML</li>
@@ -72,17 +72,27 @@
                     <li>JavaScript</li>
                     <li>Git</li>
                 </ul>
-            </div>
-            <div class="code division">
+            </article>
+            <article class="code division">
                 <h2>code</h2>
-                <p>const filter_list = l => l.filter(v => typeof v == "number")</p>
-            </div>
+                <code>
+<pre>
+<span class="blue">const</span> <span class="yellow">filter_list</span> = l => {
+    let arr = [];
+    for (let i = 0; i < l.length; i++) {
+        if (typeof(l[i]) == 'number') arr.push(l[i]); 
+    } 
+    return arr;
+}
+</pre>
+                </code>
+            </article>
 
             <div class="english division">
                 <h2>english</h2>
                 <p>b2 - Intermediate</p>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer class="footer">
