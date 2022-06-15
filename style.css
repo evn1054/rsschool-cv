@@ -5,7 +5,7 @@
     color: #534546;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    scroll-margin: 30px;
+    scroll-margin: 40px;
 }
 body {
     background-color: #f2f0f1;
@@ -55,9 +55,41 @@ h2 {
 .container ul li a {
     text-decoration: none;
     margin: 0 15px;
+    padding: 10px;
     color: white;
-
     
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+  
+}
+.container ul li a:hover {
+    color: #429494;
+    
+}
+.container ul li a::before {
+    content: "";
+    position: absolute;
+    /* padding: 10px; */
+
+    left: 0;
+    width: 100%;
+    height: 0;
+
+    background-color: white;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.animation ul li a::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+
+}
+
+.container ul li a:hover::before {
+    height: 180%;
+    border-radius: 5px;
 }
 
 .main-container {
