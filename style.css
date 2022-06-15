@@ -5,6 +5,10 @@
     color: #534546;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scroll-margin: 30px;
+}
+body {
+    background-color: #f2f0f1;
 }
 
 h1 {
@@ -19,9 +23,9 @@ h2 {
 
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 3px;
-    color: #829985;
+    color: #429494;
 }
 
 .division {
@@ -31,8 +35,11 @@ h2 {
 /* -------------------------------------------- */
 
 .header {
-    background-color: #829985;
+    background-color: #429494;
     padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }
 .container {
     max-width: 1170px;
@@ -41,7 +48,7 @@ h2 {
 }
 .container ul {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     list-style-type: none;
 }
 
@@ -87,15 +94,15 @@ h2 {
     position: absolute;
     width: 50px;
     height: 12px;
-    background-color: #d9d0c7;
+    background-color: #429494;
 }
 
 
 
 .big-hr{
     width: 100%;
-    height: 9px;
-    background-color: #d8d0c7;
+    height: 5px;
+    background-color: #429494;
 }
 
 .b02 {
@@ -138,7 +145,7 @@ table tr td {
 .footer {
     margin: 0 auto;
     margin-top: 35px;
-    background-color: #829985;
+    background-color: #429494;
     padding: 10px;
 }
 
