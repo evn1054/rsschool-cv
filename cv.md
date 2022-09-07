@@ -43,3 +43,9 @@ I have several pet-projects that can be found on the links:
 
 ### Languages:
 English: B2 - Upper-Intermediate
+
+### Contacts:
+**Location:** Sankt-peterburg, Russia  
+**Email:** evn1054@gmail.com  
+**LinkedIn:** [LinkedIn-link](https://linkedin.com/in/evgeny-nagaev-40aa30163)  
+**GitHub:** [GitHub-link](https://github.com/evn1054) 
