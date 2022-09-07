@@ -38,9 +38,9 @@ function dateSample(sampleActivity) {
 ```
 ### Experience:
 I have several pet-projects that can be found on the links:  
+* [Travel-Website-Landing](https://evn1054.github.io/travel-website-landing/)
 * [Simple cacl](https://evn1054.github.io/Calc/index.html)
 * [Weather widget that calls a remote server for information](https://evn1054.github.io/WeatherFCC/2022_04_22_Weather_prj/index.html)
-* [Travel-Website-Landing](https://evn1054.github.io/travel-website-landing/)
 
 ### Languages:
 English: B2 - Upper-Intermediate
